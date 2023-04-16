@@ -10,5 +10,6 @@ namespace InitialProject.Interfaces
     internal interface IGuestRateRepository
     {
         public void Save(GuestRate guestRate);
+        public bool IsGuestRated(int bookingId);
     }
 }
